@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.homeSection2 {
+    height: 60vh !important;
+    background-image: url(./images/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-box {
+    display: table;
+}
+
+.icon-box.icon-box-top-bottom {
+    display: block;
+}
+
+.icon-box.icon-box-top-bottom .icon-box-cell>i {
+    float: none;
+    margin: 7px 0 7px 0;
+    display: inline-block;
+}
+
+.icon-box-cell i {
+    font-size: 30px;
+}
+
+
+.icon-box-cell label {
+    font-size: 50px;
+}
+
+.icon-box-cell p {
+    font-size: 20px;
+    transform: translateY(-12px) translate(5px)
+}
+
+#hrline {
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 2px;
+    background: white;
+}
+
+.icon-box-top-bottom.text-left .icon-box-cell {
+    text-align: left;
+}
+
+.text-center .icon-box {
+    margin: 10px auto;
+}
+
+.text-left .icon-box {
+    margin: 1px 0 10px 0;
+}
+
+.icon-box label {
+    font-weight: 400;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+    position: relative;
+}
+
+.icon-box.icon-box-right label {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.icon-box-top-bottom label {
+    display: block;
+    padding: 0;
+}
+
+.icon-box-cell label {
+    display: block;
+    margin: 0;
+}
+
+.icon-box-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.icon-box-cell p {
+    padding: 5px 0 0 15px;
+    margin: 0;
+}
+
+.icon-box-right .icon-box-cell label {
+    padding-left: 0;
+    padding-right: 15px;
+    text-align: right;
+}
+
+.icon-box-right .icon-box-cell p {
+    padding-left: 0;
+    padding-right: 15px;
+    text-align: right;
+}
+
+.icon-box-top-bottom .icon-box-cell {
+    display: block;
+    text-align: center;
+}
+
+.icon-box-top-bottom .icon-box-cell label {
+    padding: 0;
+}
+
+.icon-box-top-bottom .icon-box-cell p {
+    padding: 0;
+}
+
+.icon-box.text-light label {
+    font-weight: 300;
+}
+
+#actbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+    width: 100%;
+}
+
+@media(max-width:800px) {
+    #actbox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:400px) {
+    #actbox {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.actboxs {
+    background-color: rgb(29, 29, 29);
+    height: auto;
+    padding: 40px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.btn-color {
+    height: 6vh;
+    background: linear-gradient(#291dce, #2020f3);
+    color: white;
+}
+
+.btn-color:hover {
+    color: white;
+}
+
+.seeallpost {
+    width: 30%
+}
+
+@media(max-width:800px) {
+    .seeallpost {
+        width: 50%
+    }
+}
+@media(max-width:400px) {
+    .seeallpost {
+        width: 70%
+    }
+}

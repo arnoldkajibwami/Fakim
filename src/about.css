@@ -1,0 +1,266 @@
+#about_section {
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+#aboutSection {
+  margin-bottom: 50px;
+  width: 50%;
+  /* margin-top: 50px !important; */
+}
+
+@media (max-width:770px) {
+  #aboutSection {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+}
+
+@media(max-width: 500px) {
+  #aboutSection {
+    width: 95%;
+  }
+
+  .about_image img {
+    height: 40vh;
+  }
+}
+
+.about_section {
+  padding-bottom: 30px;
+  /* margin-top: 40px; */
+}
+
+.about_section_2 {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.about_image {
+  width: 100%;
+  float: left;
+  padding-left: 22px;
+  padding-top: 37px;
+  object-fit: cover;
+}
+
+.about_image img {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: cen;
+  border-radius: 20px;
+}
+
+.about_image img:hover {
+  transform: rotate(1deg)
+}
+
+.about_taital {
+  width: 40%;
+  float: left;
+  font-size: 40px;
+  margin-top: 100px !important;
+  color: #0f0f0f;
+  font-weight: bold;
+}
+
+.abouthomediv {
+  margin-top: -70px !important;
+  margin-bottom: -90px;
+}
+
+.about_text {
+  width: 100%;
+  float: left;
+  /* font-size: 23px; */
+  color: #0f0f0f;
+  margin: 0px;
+  font-weight: 500;
+
+}
+
+.lorem_text {
+  width: 100%;
+  float: left;
+  font-size: auto;
+  color: #0f0f0f;
+  margin: 0px
+}
+
+.tomarginText {
+  margin-top: 11% !important;
+}
+
+
+@media(max-width:800px) {
+  .tomarginText {
+    margin-top: 10px !important;
+    /* display: none; */
+  }
+}
+.tonone{
+  display: none !important;
+}
+.toblock{
+  display: block !important;
+}
+@media(max-width:600px) {
+  .tonone{
+    display: block !important;
+  }
+  .toblock{
+    display: none !important;
+  }
+}
+
+.about_taital_main {
+  width: 80%;
+  float: left;
+  /* padding-top: 15%; */
+  font-weight: 400;
+  padding-left: 50px;
+}
+
+@media(max-width:800px) {
+  .about_taital {
+    width: 100%;
+    font-size: auto;
+    margin-top: 50px;
+  }
+
+  .about_taital_main {
+    width: 100%;
+    padding: 27px;
+    padding-right: 0px;
+  }
+
+  .about_section_2 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media(max-width:600px) {
+  .about_taital_main {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width:600px) {
+  .about_section_2 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .about_taital_main {
+    padding-top: 20px !important;
+  }
+
+  .about_image {
+    margin-left: -12px;
+  }
+}
+
+.detailboxa {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(44, 43, 43);
+  color: #ffffff;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.detailboxa:hover {
+  background-color: rgb(44, 43, 43);
+  cursor: pointer;
+}
+
+/* Team */
+
+
+.team .member {
+  position: relative;
+}
+
+.team .member .member-img {
+  margin: 0 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.gototeam:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .team .member .member-img {
+    margin: 0 60px;
+  }
+}
+
+.team .member .member-img img {
+  position: relative;
+  z-index: 1;
+}
+
+.team .member .member-img .social {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  padding-bottom: 20px;
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.team .member .member-img .social a {
+  transition: 0.3s;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 8px;
+}
+
+.team .member .member-img .social a:hover {
+  color: black;
+}
+
+.team .member .member-info {
+  margin-top: 30px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.team .member .member-info span {
+  font-style: italic;
+  display: block;
+  font-size: 15px;
+  color: #838893;
+  margin-bottom: 10px;
+}
+
+.team .member .member-info p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.team .member:hover .member-img .social {
+  padding-bottom: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* End Team */
