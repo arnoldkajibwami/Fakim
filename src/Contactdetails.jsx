@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
-// import emailjs from '@emailjs/browser'
 import emailjs from "emailjs-com";
+import { toast } from 'react-toastify'
 
 export default function Contactdettails() {
 
@@ -14,10 +14,10 @@ export default function Contactdettails() {
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
-                alert("Message Envoyé")
+                toast("Message Envoyé")
             }, (error) => {
                 console.log(error.text);
-                alert("Ce Message n'a pas ete envoyé !. Verifiez votre connexion" )
+                toast("Ce Message n'a pas ete envoyé !. Verifiez votre connexion" )
             });
         e.target.reset()
     };

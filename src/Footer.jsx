@@ -46,7 +46,7 @@ export default function Footer() {
 
                                     </p>
                                     <div className="social-links d-flex mt-3">
-                                        {/* <Link to="/home" className="d-flex align-items-center justify-content-center"><i className="iconfooter"><BiLogoFacebook /></i></Link> */}
+                                        <Link to="https://web.facebook.com/profile.php?id=61561363147700" className="d-flex align-items-center justify-content-center"><i className="iconfooter"><BiLogoFacebook /></i></Link>
                                         <Link to="http://www.instagram.com/fakimgroups.a.r.l" className="d-flex align-items-center justify-content-center"><i className="iconfooter"><BiLogoInstagram /></i></Link>
                                         <Link to="https://www.youtube.com/channel/UCVxHDBlFmRtgwa3fymeEdyg/videos" className="d-flex align-items-center justify-content-center"><i className="iconfooter"><BiLogoYoutube /></i></Link>
                                         {/* <Link to="/home" className="d-flex align-items-center justify-content-center"><i className="iconfooter"><BiLogoTwitter /></i></Link>
