@@ -15,7 +15,7 @@ const LogoSlider = () => {
         centerMode: true,
         dots: false,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         speed: 1500,
