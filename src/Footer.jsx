@@ -60,7 +60,7 @@ export default function Footer() {
                                 </ul>
                                 <ul>
                                     <li><Link to="/home" onClick={BackToTOP} className="nav-links footernavlink footernavlinks"> Accueil </Link></li>
-                                    <li><Link to="/culture" onClick={BackToTOP} className="nav-links footernavlink footernavlinks"> Contact Nous </Link></li>                                </ul>
+                                    <li><Link to="/contact" onClick={BackToTOP} className="nav-links footernavlink footernavlinks"> Contact Nous </Link></li>                                </ul>
                             </div>
                             <div className="col-lg-2 col-md-3 footer-links footerdblock ml-4 ">
                                 <ul>
@@ -68,9 +68,9 @@ export default function Footer() {
                                 </ul>
                                 <ul>
                                     <li><Link to="/about" onClick={BackToTOP} className="nav-links footernavlink footernavlinks "> Apropos de </Link></li>
-                                    <li><Link to="/destination" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Nos Services </Link></li>
-                                    {/* <li><Link to="/culture" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Nos Projet </Link></li> */}
-                                    <li><Link to="/contact" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Gallery </Link></li>
+                                    <li><Link to="/service" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Nos Services </Link></li>
+                                    <li><Link to="/project" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Nos Projets </Link></li>
+                                    <li><Link to="/gallery" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Gallery </Link></li>
                                 </ul>
                             </div>
                             <div className="tononefooter d-flex justify-content-around">
@@ -80,7 +80,7 @@ export default function Footer() {
                                     </ul>
                                     <ul>
                                         <li><Link to="/home" onClick={BackToTOP} className="nav-links footernavlink footernavlinks"> Accueil </Link></li>
-                                        <li><Link to="/culture" onClick={BackToTOP} className="nav-links footernavlink footernavlinks"> Contacter Nous</Link></li>                                </ul>
+                                        <li><Link to="/contact" onClick={BackToTOP} className="nav-links footernavlink footernavlinks"> Contacter Nous</Link></li>                                </ul>
                                 </div>
                                 <div className="col-lg-2 col-md-3 footer-links">
                                     <ul>
@@ -88,9 +88,9 @@ export default function Footer() {
                                     </ul>
                                     <ul>
                                         <li><Link to="/about" onClick={BackToTOP} className="nav-links footernavlink footernavlinks "> Apropos de </Link></li>
-                                        <li><Link to="/destination" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Nos Services </Link></li>
-                                        <li><Link to="/culture" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Nos Projets </Link></li>
-                                        <li><Link to="/contact" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Gallery </Link></li>
+                                        <li><Link to="/service" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Nos Services </Link></li>
+                                        <li><Link to="/project" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Nos Projets </Link></li>
+                                        <li><Link to="/gallery" onClick={BackToTOP} className="nav-links footernavlink footernavlinks">Gallery </Link></li>
                                     </ul>
                                 </div>
                             </div>

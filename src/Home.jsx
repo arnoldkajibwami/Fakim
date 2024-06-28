@@ -13,6 +13,7 @@ import ServicesSectionTwo from './ServiceContainerTwo'
 import { useNavigate, Link } from "react-router-dom";
 import './button.css'
 import LoaderPage from "./Loader";
+import LogoSlider from "./LogoSlider"
 
 
 export default function Home() {
@@ -81,6 +82,10 @@ export default function Home() {
                     </div>
                 </div>
             </section >
+
+            <section style={{ marginTop: "80px" }}>
+                <LogoSlider />
+            </section>
 
             <section style={{ marginTop: "80px" }}>
                 <ServicesSectionTwo />

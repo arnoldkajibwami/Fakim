@@ -63,9 +63,9 @@ const Header = () => {
                             <li>
                                 <NavLink to="/service" onClick={handleShowNavbar}><span onClick={BackToTOP}>Services </span></NavLink>
                             </li>
-                            {/* <li>
+                            <li>
                                 <NavLink to="/project" onClick={handleShowNavbar}>Projets</NavLink>
-                            </li> */}
+                            </li>
                             <li>
                                 <NavLink to="/gallery" onClick={handleShowNavbar}><span onClick={BackToTOP}>Gallerie</span></NavLink>
                             </li>
